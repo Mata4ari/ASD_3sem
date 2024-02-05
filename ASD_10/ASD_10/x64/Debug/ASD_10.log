@@ -1,0 +1,42 @@
+﻿Сборка начата 18.12.2023 14:47:44.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\ASD_10\ASD_10\ASD_10.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ASD_10.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\project\ASD_10\ASD_10\Source.cpp(71,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\project\ASD_10\ASD_10\Source.cpp(130,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(172,23): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(191,25): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(201,25): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(238,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(242,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(246,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>D:\project\ASD_10\ASD_10\Source.cpp(250,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Link:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\ASD_10\x64\Debug\ASD_10.exe" /INCREMENTAL /ILK:"x64\Debug\ASD_10.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\ASD_10\x64\Debug\ASD_10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\ASD_10\x64\Debug\ASD_10.lib" /MACHINE:X64 x64\Debug\Source.obj
+         ASD_10.vcxproj -> D:\project\ASD_10\x64\Debug\ASD_10.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ASD_10.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ASD_10.tlog\ASD_10.lastbuildstate".
+     1>Сборка проекта "D:\project\ASD_10\ASD_10\ASD_10.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\project\ASD_10\ASD_10\ASD_10.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\project\ASD_10\ASD_10\Source.cpp(71,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\project\ASD_10\ASD_10\Source.cpp(130,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(172,23): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(191,25): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(201,25): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(238,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(242,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(246,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         D:\project\ASD_10\ASD_10\Source.cpp(250,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 9
+    Ошибок: 0
+
+Прошло времени 00:00:01.73
